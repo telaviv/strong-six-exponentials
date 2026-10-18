@@ -1,0 +1,95 @@
+import StrongSix
+
+#check (StrongSix.SixExp.six_exponentials : StrongSix.SixExponentials)
+#print axioms StrongSix.SixExp.six_exponentials
+#check (StrongSix.Roy.strongSix_of_theorem1 :
+  StrongSix.Roy.WaldschmidtTheorem1 → StrongSix.StrongSixExponentials)
+#print axioms StrongSix.Roy.strongSix_of_theorem1
+#check @StrongSix.Thm1.interpDet_bound
+#print axioms StrongSix.Thm1.interpDet_bound
+#check (StrongSix.Thm1.MultEst : (K : Type) → [Field K] → Prop)
+#print axioms StrongSix.Thm1.iteratedFDeriv_evalExp
+#print axioms StrongSix.Thm1.liouville_det
+#print axioms StrongSix.Thm1.good_invDers
+#print axioms StrongSix.Thm1.finrank_map_sMap
+#print axioms StrongSix.Thm1.sMap_sub_mem_Omega
+#print axioms StrongSix.Thm1.exists_indep_mod_Omega
+#print axioms StrongSix.Thm1.eq_of_sub_mem_Omega
+#check (StrongSix.Thm1.theorem1_of_core :
+  StrongSix.Thm1.CoreT1 → StrongSix.Roy.WaldschmidtTheorem1)
+#print axioms StrongSix.Thm1.theorem1_of_core
+#print axioms StrongSix.Thm1.Params.Exps.ratio_of_obstruction
+#print axioms StrongSix.Thm1.Params.Exps.margin
+#print axioms StrongSix.Thm1.Params.log_dominated
+#print axioms StrongSix.Thm1.obstruction
+#print axioms StrongSix.Thm1.concl_of_obstruction
+#print axioms StrongSix.Thm1.vanishesAlong_of_words
+#print axioms StrongSix.Thm1.dichotomy
+#print axioms StrongSix.Thm1.vanishing_of_kernel
+#print axioms StrongSix.Thm1.exists_data
+#check (StrongSix.Thm1.theorem1_of_multEst :
+  StrongSix.Thm1.MultEst StrongSix.Roy.Qb → StrongSix.Roy.WaldschmidtTheorem1)
+#print axioms StrongSix.Thm1.theorem1_of_multEst
+#check (StrongSix.Thm1.strongSix_of_multEst :
+  StrongSix.Thm1.MultEst StrongSix.Roy.Qb → StrongSix.StrongSixExponentials)
+#print axioms StrongSix.Thm1.strongSix_of_multEst
+#print axioms StrongSix.M2.hilb_colon
+#print axioms StrongSix.M2.hilb_evPoly
+#print axioms StrongSix.M2.hilb_colon_hom
+#print axioms StrongSix.M2.evPoly_poly
+#print axioms StrongSix.M2.hpoly_spec
+#print axioms StrongSix.M2.HasData.unique
+#print axioms StrongSix.M2.HasData.exists
+#print axioms StrongSix.M2.HasData.compare
+#print axioms StrongSix.M2.HasData.of_sub_shift
+#print axioms StrongSix.M2.hilb_section
+#print axioms StrongSix.M2.hilb_section_zero
+#print axioms StrongSix.M2.exists_assoc_prime
+#print axioms StrongSix.M2.hilb_filtration
+#print axioms StrongSix.M2.exists_torus_pt
+#print axioms StrongSix.M2.torusChar_injective
+#print axioms StrongSix.M2.exists_indep_restr
+#print axioms isCohenMacaulayRing_iff_unmixed
+#print axioms MvPolynomial.isCM_of_isCM
+#print axioms MvPolynomial.ofList_isUnmixed
+#print axioms StrongSix.M2.S_succ
+#print axioms StrongSix.M2.hilb_Jsharp
+#print axioms StrongSix.M2.hfun_evPoly
+#print axioms StrongSix.M2.hfun_section
+#print axioms StrongSix.M2.HasData.of_le_Δ
+#print axioms StrongSix.M2.hdim_lt_of_lt
+#print axioms StrongSix.M2.hdim_add_height_le
+#print axioms StrongSix.M2.height_isMaximal
+#print axioms StrongSix.M2.hdim_add_height_eq
+#print axioms StrongSix.M2.bezout
+#print axioms StrongSix.M2.expPoly_indep
+#print axioms StrongSix.M2.expPoly_indep_subgroup
+#print axioms StrongSix.M2.classify
+#print axioms StrongSix.M2.hfun_vanish_transl
+#print axioms StrongSix.M2.hfun_union_le
+#print axioms StrongSix.M2.hfun_cosets_ge
+#print axioms StrongSix.M2.hdata_prodSet
+#print axioms StrongSix.M2.hdata_IG
+#print axioms StrongSix.M2.height_IG
+#print axioms StrongSix.M2.finite_cosets
+#print axioms StrongSix.M2.Dw_comm
+#print axioms StrongSix.M2.Dw_mem_FLE
+#print axioms StrongSix.M2.Dw_transl
+#print axioms StrongSix.M2.Dw_IG
+#print axioms StrongSix.M2.Dw_liftP
+#print axioms StrongSix.M2.indep_mod
+#print axioms StrongSix.M2.wustholz
+#print axioms StrongSix.M2.exists_biorth
+#print axioms StrongSix.M2.lemma814
+#print axioms StrongSix.M2.lemma815
+#print axioms StrongSix.M2.mem_minimalPrimes_of_hdim
+#print axioms StrongSix.M2.vanish_zeros_eq
+#print axioms StrongSix.M2.component
+#print axioms StrongSix.M2.vanish_univ_isPrime
+#print axioms StrongSix.M2.exists_flat
+#print axioms StrongSix.M2.multEstB
+#print axioms StrongSix.M2.multEst_of_isAlgClosed
+#print axioms StrongSix.M2.multEst_Qb
+#print axioms StrongSix.M2.strongSixExponentials
+#check (StrongSix.M2.strongSixExponentials : StrongSix.StrongSixExponentials)
+#print axioms StrongSix.M2.waldschmidtTheorem1

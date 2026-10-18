@@ -1,0 +1,11 @@
+# Lake build outputs and downloaded dependencies
+/.lake/
+/lake-packages/
+/build/
+
+# Editor and OS files
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
