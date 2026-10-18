@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Veronese
 
 /-!
-# Hyperplane sections for filtered Hilbert functions (M2, layer R2; Roy, Lemma 8.5)
+# Hyperplane sections for filtered Hilbert functions (Roy, Lemma 8.5)
 
 * `hfun_mono`: `J ⊆ J'` implies `hfun J' ≤ hfun J`.
 * `hfun_section`: if `P` has block degree `≤ D` and is a non-zero-divisor modulo `J`, then

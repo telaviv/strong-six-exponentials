@@ -5,7 +5,7 @@ Released under Apache 2.0 license.
 import Mathlib
 
 /-!
-# Hilbert functions of homogeneous ideals (M2, layer L1)
+# Hilbert functions of homogeneous ideals
 
 Let `A = K[z₁, …, z_m]` with the standard grading, `A_k` the homogeneous polynomials of degree `k`, and
 `J` a homogeneous ideal. The **Hilbert function** is

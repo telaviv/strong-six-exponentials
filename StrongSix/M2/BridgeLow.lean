@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Bridge
 
 /-!
-# Hilbert dimension versus height, lower bound and the bridge (M2, layer R3b-iii)
+# Hilbert dimension versus height, lower bound and the bridge
 
 * `height_isMaximal`: every maximal ideal of `K[σ]` has height `card σ`. The proof is by induction on
   the number of variables, using `Polynomial.height_eq_height_add_one` and the Jacobson property.

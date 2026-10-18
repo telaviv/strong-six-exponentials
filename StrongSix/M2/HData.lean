@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.HilbertPoly
 
 /-!
-# Dimension and degree via forward differences (M2, layer L2a/b)
+# Dimension and degree via forward differences
 
 For an integer-valued `f : ℕ → ℤ`, say `f` **has data `(a, c)`** if `c ≠ 0` and `Δᵃ f` is
 eventually the constant `c`. For a Hilbert function this means

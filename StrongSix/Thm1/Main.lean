@@ -7,7 +7,7 @@ import StrongSix.Thm1.Core6
 import StrongSix.Roy.Final
 
 /-!
-# Milestone M1: the multiplicity estimate implies Waldschmidt's Theorem 1 (and strong six)
+# The multiplicity estimate implies Waldschmidt's Theorem 1 (and strong six)
 
 * `core_of_multEst : MultEst Qb → CoreT1`. Fix the data and a large base `β`, and look at the
   interpolation matrix. Either its columns are dependent: then `obstruction` and
@@ -271,7 +271,7 @@ theorem core_of_multEst (hM : MultEst Qb) : CoreT1 := by
     have : (T : ℝ) * (β : ℝ) ^ 2 / 2 - (d * T + 1) = (T : ℝ) * (β : ℝ) ^ 2 / 2 - (d * T + 1) := rfl
     linarith
 
-/-- **Milestone M1: the multiplicity estimate implies Waldschmidt's Theorem 1.** -/
+/-- **The multiplicity estimate implies Waldschmidt's Theorem 1.** -/
 theorem theorem1_of_multEst (hM : MultEst Qb) : WaldschmidtTheorem1 :=
   theorem1_of_core (core_of_multEst hM)
 

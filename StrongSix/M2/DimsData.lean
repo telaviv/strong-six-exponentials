@@ -7,7 +7,7 @@ import StrongSix.M2.Dims
 import StrongSix.M2.BridgeLow
 
 /-!
-# Dimensions and degrees of `h₀ × T_U` and of `I_G` (M2, layer R4c, data form)
+# Dimensions and degrees of `h₀ × T_U` and of `I_G`
 
 * `hasData_poly`: an integer polynomial `P ≠ 0` gives `t ↦ P(t)` the data `(deg P, lc P · (deg P)!)`.
 * **`hdata_prodSet`**: `hdim I(h₀ × T_U) = dim h₀ + (d₁ − dim U)`, and

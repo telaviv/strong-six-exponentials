@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Section
 
 /-!
-# Hilbert dimension of ideals of `K[σ]` (M2, layer R3b-i)
+# Hilbert dimension of ideals of `K[σ]`
 
 * `hfun_section_s`: the section inequality for `P` of block degree `≤ s • D`:
   `hfun (J + (P)) (t + s) ≤ hfun J (t + s) − hfun J t`.

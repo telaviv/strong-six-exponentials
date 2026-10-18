@@ -7,7 +7,7 @@ import StrongSix.Roy.Theorem1
 import StrongSix.Roy.Support
 
 /-!
-# Counting inequivalent points (milestone M1d)
+# Counting inequivalent points
 
 Let `η₁, …, η_ℓ` span `Y` over `ℚ`, let `s : E → E'` be `ℂ`-linear, and put `Y' = s(Y)`. With
 `ρ' = dim Y' − dim (Y' ∩ Ω')`, we find indices `idx : Fin ρ' → Fin ℓ` such that the

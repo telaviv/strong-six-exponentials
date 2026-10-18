@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Component
 
 /-!
-# The torus is irreducible (M2, layer R7b)
+# The torus is irreducible
 
 * `eq_zero_of_eval_coords`: a polynomial in `K[X, Y]` vanishing on `K^{d₀} × (K^×)^{d₁}` is zero
   (`K` infinite).

@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Degree
 
 /-!
-# Filtered (affine) Hilbert functions with block degrees (M2, layer R1a)
+# Filtered (affine) Hilbert functions with block degrees
 
 Roy (DALAG Ch. 5, 8) works in a polynomial ring whose variables are split into blocks, and bounds the
 total degree in each block. Here `β : σ → ι` assigns each variable to a block, and

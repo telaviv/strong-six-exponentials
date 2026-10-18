@@ -7,7 +7,7 @@ import StrongSix.M2.HDim
 import StrongSix.CM.Unmixedness
 
 /-!
-# Hilbert dimension versus height, upper bound (M2, layer R3b-ii)
+# Hilbert dimension versus height, upper bound
 
 In `A = K[σ]` (a Cohen–Macaulay ring), every proper ideal `L` contains a sequence
 `f₁, …, f_h`, `h = ht L`, such that each `f_{j+1}` is a non-zero-divisor modulo `(f₁, …, f_j)` and

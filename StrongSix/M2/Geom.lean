@@ -7,7 +7,7 @@ import StrongSix.Thm1.MultEst
 import StrongSix.M2.ExpPoly
 
 /-!
-# The geometric layer for Roy's proof (M2, R4–R7)
+# The geometric layer for Roy's proof
 
 `G = K^{d₀} × (K^×)^{d₁}` is embedded in `K^{d₀ + 2 d₁}` by `pt (x, y) = (x, y, y⁻¹)`. Polynomials live in
 `B = K[X, Y, Z]` (`V3 d₀ d₁` variables).

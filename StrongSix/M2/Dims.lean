@@ -7,13 +7,13 @@ import StrongSix.M2.Separate
 import StrongSix.M2.Subgroup
 
 /-!
-# Dimension bounds for `V × T_U` (M2, layer R4c)
+# Dimension bounds for `V × T_U`
 
 * `lsat U`: the saturated lattice `U ∩ ℤ^{d₁}`. `prodSet h₀ (lsat U)` is the connected subgroup
   `h₀ × T_U` of MultEst.
-* `liftP`: polynomials in `X, Y` (M1's `Var`) viewed in `B = K[X, Y, Z]`.
+* `liftP`: polynomials in `X, Y` (`StrongSix.Thm1.Var`) viewed in `B = K[X, Y, Z]`.
 * `hfun_prodSet_ge`: the lower bound
-  `(tD₀/h + 1)^h (tD₁/r + 1)^r ≤ hfun I(h₀ × T_U) t`, with `h = dim h₀` and `r = d₁ − dim U`, from L5a.
+  `(tD₀/h + 1)^h (tD₁/r + 1)^r ≤ hfun I(h₀ × T_U) t`, with `h = dim h₀` and `r = d₁ − dim U`, from `exists_indep_restr` (`Subgroup.lean`).
 -/
 
 open MvPolynomial Module Submodule StrongSix.Thm1

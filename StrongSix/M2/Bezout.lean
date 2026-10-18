@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.BridgeLow
 
 /-!
-# Philippon's upper bound for `H` (Roy, DALAG Thm 8.4) (M2, layer R6)
+# Philippon's upper bound for `H` (Roy, DALAG Thm 8.4)
 
 Let `I = (l)` be a complete intersection in `A = K[σ]` (`ht I = length l`). Let `F` be a set of
 polynomials of block degree `≤ D`, and `J = I + (F) ≠ (1)`. Then

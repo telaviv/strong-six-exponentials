@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Filtered
 
 /-!
-# The Veronese bridge: filtered Hilbert functions are eventually polynomial (M2, layer R1b)
+# The Veronese bridge: filtered Hilbert functions are eventually polynomial
 
 For an ideal `J` of `K[σ]`, and a block-degree bound `D`, set
 
@@ -19,7 +19,7 @@ splitting lemma `S_succ`. The graded ideal
   `Jsharp J = {p | vmap (homogeneous component t of p) ∈ J for all t}`
 
 then satisfies `hilb (Jsharp J) t = hfun J t` (`hilb_Jsharp`). So `hfun J` is eventually polynomial by
-Hilbert–Serre (`hfun_evPoly`), and the dimension/degree theory of L2 applies to it.
+Hilbert–Serre (`hfun_evPoly`), and the dimension/degree theory of `HData.lean` applies to it.
 -/
 
 open MvPolynomial Module Submodule

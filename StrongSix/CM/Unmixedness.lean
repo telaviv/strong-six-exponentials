@@ -7,7 +7,7 @@ import StrongSix.CM.Unmixed
 import StrongSix.CM.Polynomial
 
 /-!
-# Macaulay's unmixedness theorem for polynomial rings over a field (M2, layer R3)
+# Macaulay's unmixedness theorem for polynomial rings over a field
 
 This is the one deep input to Roy's proof of the multiplicity estimate (DALAG Ch. 8, Lemma 8.5 and
 Thm 8.4). It is assembled from the ported Guan–Hu Cohen–Macaulay library (`StrongSix/CM/*`):

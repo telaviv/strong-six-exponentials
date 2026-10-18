@@ -7,7 +7,7 @@ import StrongSix.M2.Geom
 import StrongSix.M2.HDim
 
 /-!
-# Translations on `B = K[X, Y, Z]` (M2, layer R4-T)
+# Translations on `B = K[X, Y, Z]`
 
 * `blk`: the two blocks, `X` and `(Y, Z)`.
 * `transl g`: the `K`-algebra map with `(transl g P)(pt h) = P(pt (g h))`. It sends `X ↦ X + g_x`,

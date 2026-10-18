@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Torus
 
 /-!
-# Roy's chain of ideals (M2, layer R7c; Roy §8.4.1)
+# Roy's chain of ideals (Roy §8.4.1)
 
 * `DwL l Q`: the derivations `D_w` along a list `l` (first element applied first).
 * `VO W n J`: the ideal of `x` with `D_l x ∈ J` for every list `l ⊆ W` with `|l| ≤ n` ("vanishing to

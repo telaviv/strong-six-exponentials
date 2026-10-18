@@ -8,7 +8,7 @@ import StrongSix.Roy.Support
 import StrongSix.Roy.Subquot
 
 /-!
-# From the obstruction subgroup `H = h₀ × T_U` to the map `s` (milestone M1c)
+# From the obstruction subgroup `H = h₀ × T_U` to the map `s`
 
 `MultEst ℚ̄` returns `h₀ ⊂ ℚ̄^{d₀}` and a space of characters `U ⊂ ℚ^{d₁}`. We build the
 block-diagonal map

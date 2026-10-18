@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Deriv
 
 /-!
-# Wüstholz's lemma, linear-algebra part (M2, layer R5b; Roy Lemma 8.16, Thm 8.18)
+# Wüstholz's lemma, linear-algebra part (Roy Lemma 8.16, Thm 8.18)
 
 Setting: an ideal `J` of a commutative `K`-algebra `R`, derivations `D₁, …, D_ℓ`, and `Q₁, …, Q_ℓ ∈ J`
 with `Dᵢ Qⱼ ≡ δᵢⱼ (mod J)`.

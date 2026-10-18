@@ -7,7 +7,7 @@ import StrongSix.M2.Chain
 import StrongSix.M2.Bezout
 
 /-!
-# The multiplicity estimate in `K[X, Y, Z]` (M2, layer R7d; Roy §8.4.1)
+# The multiplicity estimate in `K[X, Y, Z]` (Roy §8.4.1)
 
 **`multEstB`**: Philippon's multiplicity estimate for `G = G_a^{d₀} × G_m^{d₁}` over an algebraically
 closed field of characteristic `0`, in the ideal-theoretic language of `M2`.

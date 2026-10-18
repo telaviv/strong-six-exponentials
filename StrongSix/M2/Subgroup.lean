@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.Thm1.MultEst
 
 /-!
-# The obstruction subgroups `h₀ × T_U` and their Hilbert functions (M2, layer L5a)
+# The obstruction subgroups `h₀ × T_U` and their Hilbert functions
 
 For a `K`-subspace `h₀ ⊆ K^{d₀}` and a `ℚ`-subspace `U ⊆ ℚ^{d₁}`, `TU U ⊆ (K^×)^{d₁}` is the subtorus cut
 out by the characters `y^φ`, `φ ∈ U ∩ ℤ^{d₁}`. The subgroup `h₀ × T_U` has dimension

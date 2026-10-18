@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.DimsData
 
 /-!
-# The connected component of `V × T_Λ` has finite index (M2, layer R4e)
+# The connected component of `V × T_Λ` has finite index
 
 * `qspan Λ`: the `ℚ`-span of a lattice `Λ ⊆ ℤ^{d₁}`. `G⁰ = V × T_{lsat (qspan Λ)}` is the connected
   component of `G′ = V × T_Λ`, and it is contained in `G′` (`prodSet_sat_subset`).

@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Geom
 
 /-!
-# Algebraic subgroups of `G_a^{d₀} × G_m^{d₁}` (Roy, DALAG Prop. 5.6) (M2, layer R4b)
+# Algebraic subgroups of `G_a^{d₀} × G_m^{d₁}` (Roy, DALAG Prop. 5.6)
 
 For a subset `E` of `G`:
 * `linV E` is the subspace cut out by the linear forms that vanish on `E_x`;

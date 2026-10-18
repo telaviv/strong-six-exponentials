@@ -5,10 +5,10 @@ Released under Apache 2.0 license.
 import Mathlib
 
 /-!
-# The multiplicity estimate on `G_a^{d₀} × G_m^{d₁}` (the hypothesis of milestone M1)
+# The multiplicity estimate on `G_a^{d₀} × G_m^{d₁}`
 
-This file only *states* `MultEst K`, as a `Prop`. Milestone M1 proves
-`MultEst Qb → WaldschmidtTheorem1` (`StrongSix.Thm1.theorem1_of_multEst`). Milestone M2 proves
+This file only *states* `MultEst K`, as a `Prop`. `Thm1/Main.lean` proves
+`MultEst Qb → WaldschmidtTheorem1` (`StrongSix.Thm1.theorem1_of_multEst`), and `M2/` proves
 `MultEst K` for every algebraically closed `K` of characteristic `0`
 (`StrongSix.M2.multEst_of_isAlgClosed`, in `StrongSix/M2/Final.lean`), hence `MultEst Qb`.
 

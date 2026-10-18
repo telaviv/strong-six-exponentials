@@ -5,7 +5,7 @@ Released under Apache 2.0 license.
 import Mathlib
 
 /-!
-# Exponential polynomials on `ℕ` (M2, layer R4a, univariate part)
+# Exponential polynomials on `ℕ`
 
 **`expPoly_indep`**: let `ρ` range over a finite set of distinct nonzero elements of a field of
 characteristic `0`, and let `Q_ρ` be polynomials. If `Σ_ρ Q_ρ(n) ρⁿ = 0` for every `n ∈ ℕ`, then every

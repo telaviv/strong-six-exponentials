@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Wustholz
 
 /-!
-# Dual families of derivations and equations (M2, layer R5c; Roy Lemmas 8.13–8.15)
+# Dual families of derivations and equations (Roy Lemmas 8.13–8.15)
 
 For `G′ = V × T_Λ`, write `Te = V × Λ^⊥` (`Λ^⊥ = torusLie K (qspan Λ)`), and `ℓ = dim W − dim (W ∩ Te)`.
 

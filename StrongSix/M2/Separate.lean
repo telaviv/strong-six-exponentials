@@ -7,7 +7,7 @@ import StrongSix.M2.Transl
 import StrongSix.M2.Classify
 
 /-!
-# Restriction spaces and separation of cosets (M2, layer R4d; Roy Ex. 8.5, Lemma 8.15)
+# Restriction spaces and separation of cosets (Roy Ex. 8.5, Lemma 8.15)
 
 * `restrE E`: polynomials ↦ their values on `E` (extended by `0`).
 * `hfun_vanish_eq`: `hfun (vanish E) t = dim (restrictions of FLE(tD) to E)`.

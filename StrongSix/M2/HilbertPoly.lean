@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Hilbert
 
 /-!
-# The Hilbert polynomial (M2, layer L1c)
+# The Hilbert polynomial
 
 * `hilb_colon_hom`: for any homogeneous `f ≠ 0` of degree `e`,
   `hilb J (k+e) = hilb (J + (f)) (k+e) + hilb (J : f) k`.

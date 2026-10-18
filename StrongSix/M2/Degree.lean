@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.HData
 
 /-!
-# Hyperplane sections and prime filtrations (M2, layer L2c/d)
+# Hyperplane sections and prime filtrations
 
 * `hilb_top`: the unit ideal has Hilbert function `0`.
 * `hilb_hasData_or_zero`: the Hilbert function of a homogeneous ideal is eventually zero or has data

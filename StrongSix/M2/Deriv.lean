@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Index
 
 /-!
-# Invariant derivations on `B = K[X, Y, Z]` (M2, layer R5a; Roy §8.3.2)
+# Invariant derivations on `B = K[X, Y, Z]` (Roy §8.3.2)
 
 For `w = (ξ, η) ∈ K^{d₀} × K^{d₁}`:
 
@@ -17,7 +17,7 @@ For `w = (ξ, η) ∈ K^{d₀} × K^{d₁}`:
 * `Dw_mem_FLE`: `D_w` preserves block degrees.
 * `Dw_transl`: `D_w` commutes with translations.
 * `Dw_IG`: `D_w` maps `I_G` into itself.
-* `Dw_liftP`: on `K[X, Y]`, `D_w` is M1's `invDer w`.
+* `Dw_liftP`: on `K[X, Y]`, `D_w` is `StrongSix.Thm1.invDer w`.
 -/
 
 open MvPolynomial Module Submodule StrongSix.Thm1
@@ -166,7 +166,7 @@ theorem Dw_IG (w : LieG K d0 d1) {P : B} (hP : P ∈ (IG : Ideal B)) : Dw w P �
     exact Ideal.add_mem _ (Ideal.mul_mem_left _ _ hx) (Ideal.mul_mem_right _ _ (Ideal.span_le.mpr
       (fun _ h => Ideal.subset_span h) hx'))
 
-/-- M1's `invDer` as a derivation. -/
+/-- `StrongSix.Thm1.invDer` as a derivation. -/
 noncomputable def invDerD (w : LieG K d0 d1) :
     Derivation K (MvPolynomial (Var d0 d1) K) (MvPolynomial (Var d0 d1) K) :=
   ∑ i, w.1 i • pderiv (Sum.inl i) + ∑ j, w.2 j • ((X (Sum.inr j) : MvPolynomial (Var d0 d1) K) •

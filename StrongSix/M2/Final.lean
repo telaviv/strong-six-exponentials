@@ -7,9 +7,9 @@ import StrongSix.M2.MainB
 import StrongSix.Thm1.Main
 
 /-!
-# Milestone M2: the multiplicity estimate, and the strong six exponentials theorem
+# The multiplicity estimate, Waldschmidt's Theorem 1, and the strong six exponentials theorem
 
-* `DwL_liftP`: on `K[X, Y]`, the derivations `D_w` along a list are M1's `invDers` (reversed list).
+* `DwL_liftP`: on `K[X, Y]`, the derivations `D_w` along a list are `StrongSix.Thm1.invDers` (reversed list).
 * **`multEst_of_isAlgClosed`**: `MultEst K` for every algebraically closed `K` of characteristic `0`
   (Philippon 1986, Thm. 2.1, in the form proved by Roy, DALAG Ch. 8).
 * **`multEst_Qb`**: `MultEst Qb`.

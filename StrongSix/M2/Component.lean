@@ -6,7 +6,7 @@ import Mathlib
 import StrongSix.M2.Pairing
 
 /-!
-# Components without component theory (M2, layer R7a; Roy §8.4.1, first half)
+# Components without component theory (Roy §8.4.1, first half)
 
 Everything is phrased with prime ideals and the bridge `hdim + ht = card σ`.
 

@@ -5,7 +5,7 @@ Released under Apache 2.0 license.
 import Mathlib
 
 /-!
-# The exponents of the transcendence construction (milestone M1e)
+# The exponents of the transcendence construction
 
 Work in the regime `1 ≤ q := d − n ≤ p := d₁` and `n ≥ 1`. All parameters are powers of one integer
 base `β`, with integer exponents:
